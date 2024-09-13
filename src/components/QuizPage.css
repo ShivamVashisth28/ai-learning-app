@@ -1,0 +1,106 @@
+/* QuizPage.css */
+.quiz-page {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    color: #29b6f6;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .quiz-list {
+    margin-bottom: 30px;
+  }
+  
+  .quiz-list h2 {
+    font-size: 2rem;
+    color: #29b6f6;
+    margin-bottom: 15px;
+  }
+  
+  .quiz-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .quiz-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .quiz-card h3 {
+    font-size: 1.5rem;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-card p {
+    font-size: 1rem;
+    color: #b0bec5;
+  }
+  
+  .quiz-card button {
+    padding: 10px;
+    background-color: #e53935;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .quiz-card button:hover {
+    background-color: #c62828;
+  }
+  
+  .create-quiz {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .create-quiz h2 {
+    font-size: 1.5rem;
+    color: #29b6f6;
+    margin-bottom: 15px;
+  }
+  
+  .create-quiz form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-quiz input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #444;
+    color: #e0e0e0;
+  }
+  
+  .create-quiz button {
+    padding: 10px;
+    background-color: #29b6f6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .create-quiz button:hover {
+    background-color: #1e88e5;
+  }
+  
